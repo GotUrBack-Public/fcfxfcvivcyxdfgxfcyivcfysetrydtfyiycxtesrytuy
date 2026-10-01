@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Max",
+    "nachname": "Müller",
+    "telefonnummer": "+49 123 456789"
+  },
+  {
+    "id": 2,
+    "name": "Anna",
+    "nachname": "Schmidt",
+    "telefonnummer": "+49 234 567890"
+  },
+  {
+    "id": 3,
+    "name": "Peter",
+    "nachname": "Weber",
+    "telefonnummer": "+49 345 678901"
+  },
+  {
+    "id": 4,
+    "name": "Julia",
+    "nachname": "Fischer",
+    "telefonnummer": "+49 456 789012"
+  },
+  {
+    "id": 5,
+    "name": "Klaus",
+    "nachname": "Hoffmann",
+    "telefonnummer": "+49 567 890123"
+  },
+  {
+    "id": 6,
+    "name": "Sandra",
+    "nachname": "Krueger",
+    "telefonnummer": "+49 678 901234"
+  },
+  {
+    "id": 7,
+    "name": "Michael",
+    "nachname": "Koch",
+    "telefonnummer": "+49 789 012345"
+  },
+  {
+    "id": 8,
+    "name": "Lisa",
+    "nachname": "Schulze",
+    "telefonnummer": "+49 890 123456"
+  },
+  {
+    "id": 9,
+    "name": "Thomas",
+    "nachname": "Baer",
+    "telefonnummer": "+49 901 234567"
+  },
+  {
+    "id": 10,
+    "name": "Katrin",
+    "nachname": "Braun",
+    "telefonnummer": "+49 012 345678"
+  },
+  {
+    "id": 11,
+    "name": "David",
+    "nachname": "Wolf",
+    "telefonnummer": "+49 123 456780"
+  },
+  {
+    "id": 12,
+    "name": "Emma",
+    "nachname": "Neumann",
+    "telefonnummer": "+49 234 567891"
+  },
+  {
+    "id": 13,
+    "name": "Robert",
+    "nachname": "Keller",
+    "telefonnummer": "+49 345 678902"
+  },
+  {
+    "id": 14,
+    "name": "Sophie",
+    "nachname": "Lehmann",
+    "telefonnummer": "+49 456 789013"
+  },
+  {
+    "id": 15,
+    "name": "Chris",
+    "nachname": "Sommer",
+    "telefonnummer": "+49 567 890124"
+  }
+]
