@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hehs-Intelligency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="bgCanvas"></canvas>
+
+    <nav class="top-nav">
+        <div class="nav-left">
+            <h1 class="logo">HEHS-INTELLIGENCY</h1>
+            <div class="search-container">
+                <label class="search-label">SEARCH DATABASE</label>
+                <input 
+                    type="text" 
+                    id="searchInput" 
+                    class="search-input" 
+                    placeholder="Name, Nachname oder Telefonnummer..."
+                >
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="cctv-section">
+                <label class="cctv-label">CCTV FEED</label>
+                <select id="cctvSelect" class="cctv-select">
+                    <option value="0">CAM_01</option>
+                    <option value="1">CAM_02</option>
+                    <option value="2">CAM_03</option>
+                    <option value="3">CAM_04</option>
+                </select>
+            </div>
+            <div class="cctv-feed">
+                <canvas id="cctvCanvas"></canvas>
+                <div class="cctv-indicator"></div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="results-grid" id="resultsGrid">
+            <div class="loading">>>> initializing database...</div>
+        </div>
+    </main>
+
+    <div class="modal" id="detailModal">
+        <div class="modal-box">
+            <button class="modal-close">&times;</button>
+            <div class="modal-header"></div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
